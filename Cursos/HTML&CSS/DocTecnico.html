@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a JavaScript</title>
+    <link rel="stylesheet" href="DocTecnico-Style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>JS Documentación</header>
+        <ul>
+            <li>
+        <a href="#Introducción" class="nav-link">Introducción</a>
+            </li>
+            <li>
+        <a href="#Lo_que_ya_debes_saber" class="nav-link">Lo que ya debes saber</a>
+            </li>
+            <li>
+        <a href="#JavaScript_y_Java" class="nav-link">Javascript y Java</a>
+            </li>
+            <li>
+        <a href="#Hola_Mundo" class="nav-link">Hola Mundo</a>
+            </li>
+            <li>
+        <a href="#Variables" class="nav-link">Variables</a>
+            </li>
+            <li>
+        <a href="#Declaración_de_Variables" class="nav-link">Declaración de Variables</a>
+            </li>
+            <li>
+        <a href="#Alcance_variable" class="nav-link">Alcance variable</a>
+            </li>
+            <li>
+        <a href="#Constantes" class="nav-link">Constantes</a>
+            </li>
+            <li>
+        <a href="#Tipos_de_Datas" class="nav-link">Tipos de Datas</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introducción">
+           <header>Introducción</header>
+           <article>
+            <p>
+                “  JavaScript es una multiplataforma, con el objetivo de la escritura de código. Esta es mínima y ligera codificación. Dentro de un servidor Host (Por ejemplo una página web). Javascript puede ser entrelazada con otras herramientas para proveer control de programación sobre el producto. “
+            </p>
+            <p>
+                JavaScript contiene un sistema estándar de librerías y objetos, tales como Array, Date y Math. Como elemento principal en el kit de lenguaje predomina operadoras, control de estructuras, y declaraciones base de JavaScript los cuales puede ser extendidos para una variedad de propósitos acompañados con objetos adicionales; por ejemplo:
+            </p>
+            <ul>
+                <li>
+                    El cliente JavaScript puede amplificar el lenguaje base mediante el suministro de objetos para el control de un navegador y su Document Object Model (DOM). Por ejemplo, las extensiones permiten colocar elementos en un  formulario HTML y responde a eventos del usuario como clicks del mouse, información del formulario colocada, y navegación de la página.
+                </li>
+                <li>
+                    El servidor JavaScript amplía el lenguaje central al proporcionar objetos relevantes para ejecutar JavaScript en un servidor. Por ejemplo, las extensiones del servidor permiten que una aplicación se comunique con una base de datos, proporcionen continuidad de información de una invocación a otra de la aplicación o realicen manipulaciones de archivos en un servidor.
+                </li>
+            </ul>
+           </article>
+        </section>
+        <section class="main-section" id="Lo_que_ya_debes_saber">
+            <header>Lo que ya debes saber</header>
+            <p>Esta guía asume que usted tiene los siguientes conocimientos básicos:
+            </p>
+            <ul>
+                <li>Conocimiento general sobre Internet y World Wide Web (WWW).</li>
+                <li>Buen conocimiento práctico del lenguaje de marcado de hipertexto (HTML).</li>
+                <li>Algo de experiencia en programación. Si eres nuevo en la programación, prueba uno de los tutoriales vinculados en la página principal sobre JavaScript</li>
+            </ul>
+        </section>
+        <section class="main-section" id="JavaScript_y_Java">
+            <header>JavaScript y Java</header>
+            <article>
+                <p>
+                    JavaScript y Java son similares en algunos aspectos, pero fundamentalmente diferentes en otros. El lenguaje JavaScript se parece a Java, pero no tiene el tipado estático ni la verificación de tipos fuerte de Java. JavaScript sigue la mayoría de las sintaxis de expresiones de Java, las convenciones de nomenclatura y las construcciones básicas de flujo de control, razón por la cual se cambió el nombre de LiveScript a JavaScript.
+                </p>
+                <p>
+                    A diferencia del sistema de clases en tiempo de compilación de Java construido por declaraciones, JavaScript admite un sistema de tiempo de ejecución basado en una pequeña cantidad de tipos de datos que representan valores numéricos, booleanos y de cadena. JavaScript tiene un modelo de objetos basado en prototipos en lugar del modelo de objetos basado en clases más común. El modelo basado en prototipos proporciona una herencia dinámica; es decir, lo que se hereda puede variar para objetos individuales. JavaScript también admite funciones sin ningún requisito declarativo especial. Las funciones pueden ser propiedades de objetos, ejecutándose como métodos vagamente tipificados.
+                </p>
+                <p>
+                    JavaScript es un lenguaje de forma muy libre en comparación con Java. No tiene que declarar todas las variables, clases y métodos. No tiene que preocuparse por si los métodos son públicos, privados o protegidos, y no tiene que implementar interfaces. Las variables, los parámetros y los tipos de devolución de funciones no se escriben explícitamente.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Hola_Mundo">
+            <header>Hola Mundo</header>
+            <article>
+                   <p>Para comenzar a escribir JavaScript, abra el Bloc de notas y escriba su primer código JavaScript "Hola mundo".</p>
+                <code>
+                    function greetMe(yourName) { alert("Hello " + yourName); }greetMe("World");
+                </code>
+                <p>¡Seleccione el código en el pad y presione Ctrl+R para verlo desplegarse en su navegador! </p>
+            </article>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <article>
+                <p>
+                    Utiliza variables como nombres simbólicos para valores en su aplicación. Los nombres de las variables, llamados identificadores, se ajustan a ciertas reglas.
+                </p>
+                <p>
+                    Un identificador de JavaScript debe comenzar con una letra, un guión bajo (_) o un signo de dólar ($); los caracteres subsiguientes también pueden ser dígitos (0-9). Dado que JavaScript distingue entre mayúsculas y minúsculas, las letras incluyen los caracteres de la "A" a la "Z" (mayúsculas) y los caracteres de la "a" a la "z" (minúsculas).
+                </p>
+                <p>
+                    Puede utilizar ISO 8859-1 o letras Unicode como å y ü en los identificadores. También puede utilizar las secuencias de escape Unicode como caracteres en identificadores. Algunos ejemplos de nombres legales son Number_hits, temp99 y _name.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Declaración_de_Variables">
+            <header>Declaración de Variables</header>
+            <article>
+                " Puede declarar una variable de tres maneras: "
+                <p>
+                    Con la palabra clave var. Por ejemplo, 
+                </p>
+                <code>
+                    var x = 42.
+                </code>
+                <p>
+                Esta sintaxis se puede utilizar para declarar variables locales y globales.
+                </p>
+                <p>
+                    Simplemente asignándole un valor. Por ejemplo
+                </p>
+                    <code>
+                        x = 42.
+                    </code>
+                <p>
+                    Con la palabra clave let. Por ejemplo
+                </p>
+                    <code>
+                        let y = 13.
+                    </code>
+                    Esta sintaxis se puede utilizar para declarar una variable local de ámbito de bloque. Consulte Alcance variable a continuación.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Alcance_variable">
+                <header>Alcance Variable</header>
+                <article>
+                    <p>
+                        Cuando se declara una variable fuera de cualquier función, se denomina variable global, ya que está disponible para cualquier otro código del documento actual. Cuando se declara una variable dentro de una función, se denomina variable local, porque sólo está disponible dentro de esa función.
+                    </p>
+                    <p>
+                        JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statemen
+                    </p>
+                        <code>
+                            if (true) { var x = 5; } console.log(x); // 5
+                        </code>
+                    <p>
+                            Este comportamiento cambia cuando se utiliza la declaración let introducida en ECMAScript 2015.
+                    </p>
+                    <code>
+                        if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined
+                    </code>
+                </article>
+                <br>
+        </section>
+        <section class="main-section" id="Constantes">
+            <header>Constantes</header>
+            <article>
+                <p>
+                    Puede crear una constante con nombre de solo lectura con la palabra clave const. La sintaxis de un identificador constante es la misma que para un identificador de variable: debe comenzar con una letra, un guión bajo o un signo de dólar y puede contener caracteres alfabéticos, numéricos o de subrayado.
+                </p>
+                <code>
+                    const PI = 3.14;
+                </code>
+                <p>
+                    Una constante no puede cambiar el valor mediante asignación ni volver a declararse mientras se ejecuta el script. Tiene que ser inicializado a un valor.
+                </p>
+                <p>
+                    Las reglas de ámbito para las constantes son las mismas que para las variables de ámbito let block. Si se omite la palabra clave const, se supone que el identificador representa una variable.
+                </p>
+                <p>
+                    Las reglas de ámbito para las constantes son las mismas que para las variables de ámbito let block. Si se omite la palabra clave const, se supone que el identificador representa una variable. ...
+                </p>
+                <code>
+                    // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THISWILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;//statements }
+                </code>
+                <p>
+                    Sin embargo, los atributos de objeto no están protegidos, por lo que la siguiente instrucción se ejecuta sin problemas.
+                </p>
+                <code>
+                    const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =otherValue";
+                </code>
+            </article>
+        </section>
+        <br>
+        <section class="main-section" id="Tipos_de_Datas">
+            <header>Tipos de Datas</header>
+            <article>
+                <p>
+                    El último estándar ECMAScript define siete tipos de datos:
+                </p>
+                <ul>
+                    <li> 
+                        <p>Seis tipos de datos que son primitivos:</p>
+                        <ul>
+                            <li>Boolean. true and false.</li>
+                            <li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+                            <li>undefined. A top-level property whose value is undefined.</li>
+                            <li>Number. 42 or 3.14159.</li>
+                            <li>String. "Howdy"</li>
+                            <li>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Y Objetiva
+                    </li>
+                </ul>
+                Aunque estos tipos de datos son una cantidad relativamente pequeña, le permiten realizar funciones útiles con sus aplicaciones. Los objetos y las funciones son los otros elementos fundamentales en el lenguaje. Puede pensar en los objetos como contenedores con nombre para valores y funciones como procedimientos que la aplicación puede realizar.
+            </article>
+        </section>
+    </main>
+</body>
+</html>

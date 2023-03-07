@@ -1,0 +1,190 @@
+@media (max-width: 1200px) {
+    html{ 
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 980px) {
+    html {
+        font-size: 58%;
+    }
+}
+
+@media (max-width: 460px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+/** Media querry **/
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: rgb(71, 12, 12);
+    --section--gray: rgb(49, 41, 41);
+    --section2-blue: rgba(46, 20, 105, 0.658);
+}
+
+/** Barra de navegador **/
+
+header {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--main-color) ;
+}
+
+#navbar {
+    display: flex;
+}
+
+#navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+#navbar li {
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+    
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 2px 7px 2px 7px;
+}
+
+#navbar li a:hover {
+    background-color: rgb(89, 89, 163);
+}
+
+/** Termina Barra navegador **/
+
+/** Seccion de bienvenida **/
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vw;
+    background-color: var(--section--gray);
+    color: blanchedalmond;
+    font-size: 1.8rem;
+    padding: 0 2rem;
+}
+
+#welcome-section p {
+    color: brown;
+    font-size: 50%;
+    padding-top: 5px;
+    font-style: italic;
+}
+
+/** Termina Seccion de Bienvenida **/
+
+/** Seccion de Proyectos **/
+
+#projects {
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: var(--section2-blue);
+}
+
+.project-tile {
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-color);
+    max-width: 600px;
+}
+
+.imagen {
+    width: 100%;
+    background: var(--section--gray);
+}
+
+.imagen img {
+    width: 100%;
+
+}
+
+.project-grid {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: .5rem;
+    row-gap: .5rem;
+}
+
+.code {
+    display: block;
+    color: white;
+}
+
+/** Termina Seccion de Proyectos **/
+
+/** Seccion de contactame **/
+
+#contact {
+    display: flex;
+    width: 100%;
+    height: 50vw;
+    background-color: var(--section--gray);
+    color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+    flex-direction: column;
+}
+
+#contact-h h3{
+   font-size: 3rem;
+}
+
+#contact-h p {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+#contact-profiles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 4rem;
+    max-width: 980px;
+    flex-wrap: wrap;
+}
+
+#profile-link {
+    color: aliceblue;
+    transition: transform 0.3s ease-out;
+}
+
+#profile-link:hover {
+    transform: translateY(8px);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 2px;
+    text-decoration: none;
+
+}
+
+/** Termina Seccion de Contactame **/

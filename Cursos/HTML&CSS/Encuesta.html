@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Encuesta-style.css">
+      <title>Freecodecamp Encuesta</title>
+    </head>
+<body>
+<h1 id="title">Formulario de Encuesta</h1>
+<p id="description"> Gracias por tomarte tu tiempo y ayudar a nuestra empresa</p>
+<form id="survey-form">
+   <label id="name-label" for="name">Nombre:
+    <input id="name" type="text" placeholder="Nombre" required>
+   </label>
+   <label id="email-label" for="email">Correo Electronico:
+    <input id="email" type="email" placeholder="Correo Electronico" required>
+   </label>
+   <label id="number-label" for="number">Edad:
+    <input id="number" type="number" min="10" max="100" placeholder="Edad" required>
+   </label>
+     <select id="dropdown">
+        <option>(Seleccione su Genero)</option>
+        <option>Masculino</option>
+        <option>Femenino</option>
+        <option>Otro</option>
+     </select>
+     <p id="question">¿Qué es lo que mas te gusta de la página?</p>
+     <label class="respuesta">
+        <input name="usuario-gustos" value="Foros" type="radio" class="input-radio" checked> Foros
+        </label>
+     <label class="respuesta">
+        <input name="usuario-gustos" value="Cursos" type="radio" class="input-radio" checked> Cursos
+     </label>
+     <label class="respuesta">
+        <input name="usuario-gustos" value="Herramientas" type="radio" class="input-radio" checked> Herramientas
+     </label>
+     <p id="question">¿A quien le recomendarias nuestra aplicación?</p>
+     <label>
+      <input name="recomendacion" value="Amigos" type="checkbox" checked> Amigos
+     </label>
+     <label>
+      <input name="recomendacion" value="Pareja" type="checkbox" checked> Pareja
+     </label>
+     <label>
+      <input name="recomendacion" value="Familiares" type="checkbox" checked> Familiares
+     </label>
+     <textarea rows="3" cols="30" placeholder="Comentanos tu opinión"></textarea>
+     <input type="submit" id="submit">
+</form>
+</body>
+</html>

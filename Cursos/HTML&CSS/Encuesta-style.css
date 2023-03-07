@@ -1,0 +1,47 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: rgb(255, 223, 211);
+}
+
+#title {
+    text-align: center;
+    font-size: 45px;
+    margin: 1em auto;
+    color: rgb(149, 125, 173);
+}
+
+#description{
+    text-align: center;
+    font-size: 22px;
+    margin: 1em auto;
+    color: rgb(149, 125, 173);
+ }
+
+fieldset {
+    border: 2px solid rgb(149, 125, 173);
+    padding: 2px 0;
+    margin: 50px 50px;
+}
+
+ label, select, textarea, p {
+    display: block;
+    margin: 15px auto ;
+    text-align: center;
+ }
+
+ input, select, textarea {
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-bottom: solid 2px rgb(124, 85, 163);
+
+ }
+
+input[type="submit"] {
+    display: block;
+    margin: 15px auto;
+    height: 25px;
+    border-color: pink;
+    border-radius: 6px;
+}

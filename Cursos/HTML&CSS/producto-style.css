@@ -1,0 +1,238 @@
+* {
+    background-color: #eee;
+    font-family: 'Comic Neue', cursive;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/** Barra de navegador **/
+
+#header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #eee;
+    top: 0;
+    max-height: 70px;
+    padding: 0 20px;
+    border-bottom: .5px solid rgb(15, 152, 170);
+}
+
+.logo {
+    width: 60vw;
+    display: flex; 
+}
+
+#header-img {
+    width: 100%;
+    height: 100%;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.logo > h1 {
+    margin-top: auto;
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: bolder;
+} 
+
+#nav-bar > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+}
+
+li > a:hover {
+    color: blueviolet;
+}
+
+/** Correo electronico **/
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    margin-top: 70px;
+}
+
+form > h1 {
+    display: block;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+}
+
+form > #email {
+    border-radius: 5%;
+    height: 35px;
+}
+
+form > #email::placeholder {
+    color: #00beef;
+    font-weight: bolder;
+}
+
+form > #submit {
+    margin-top: 10px;
+}
+
+/** Información **/
+
+#Datos__Manga {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    float: left;
+    padding-right: 20px;
+}
+
+section > div {
+    margin: 20px 30px;
+}
+
+.camion {
+   color: #25530E ;
+}
+
+.fuego {
+    color: #F04F0F ;
+    padding: 10px;
+}
+
+.botella {
+    color: #15A8C2;
+    padding: 5px;
+}
+
+.info {
+    text-align: center;
+}
+
+/** Video **/
+
+#Contenedor__Video {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    max-width: 560px;
+    width: 100%;
+}
+
+/** Mangas venta **/
+
+.Contenedor__Manga {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.Contenedor__Manga-Venta-Imagen > h2 {
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    margin-right: 30px;
+}
+
+.Contenedor__Manga-Venta-Imagen > img {
+    max-width: 350px;
+    max-height: 400px;
+    margin-left: 60px;
+}
+
+.Boton__Venta {
+   color: black;
+   border-radius: 10%;
+   padding: 10px 10px;
+   cursor: pointer;
+   background-color: rgb(238, 253, 32);
+   margin-left: 120px;
+}
+
+.Pie__pagina {
+    padding:20px 0;
+  background-color:#9c9292;
+  color:#4b4c4d;
+  text-align: center;
+}
+
+span {
+    background-color: #9c9292;
+}
+
+@media only screen and (max-width: 720px) {
+    #header {
+        width: 350px;
+        border: none;
+    }
+    .logo > h1 {
+    margin-top: auto;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: none;
+    }
+    #nav-bar > ul {
+        width: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .icon {
+        float: top;
+        padding-bottom: 20px;
+    }
+    iframe {
+        height: 300px;
+        width: 300px
+    }
+    .Contenedor__Manga {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Contenedor__Manga-Venta-Imagen {
+        justify-content: center;
+        align-items: center;
+    }
+    .Contenedor__Manga-Venta-Imagen > img {
+        padding-right: 80px;
+    }
+}
+
+
+
+
+       
