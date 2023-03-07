@@ -1,1 +1,19 @@
-asdasdasdasdas
+¡Claro! Aquí te propongo un reto para poner en práctica tus habilidades en HTML, CSS y JavaScript:
+
+Crea una página web que permita al usuario ingresar un número entero y, al hacer clic en un botón, muestre en la página todos los números primos menores o iguales a ese número.
+
+Aquí hay algunas especificaciones adicionales:
+
+La página debe tener un campo de entrada para que el usuario ingrese un número entero.
+
+Debe haber un botón "Calcular" que el usuario pueda hacer clic para generar la lista de números primos.
+
+La lista de números primos debe mostrarse debajo del botón "Calcular".
+
+La lista de números primos debe ser generada en tiempo real con JavaScript y mostrada en la página utilizando HTML y CSS.
+
+Los números primos deben estar resaltados de alguna manera en la lista, por ejemplo, con un color de fondo diferente.
+
+La página debe ser atractiva y fácil de usar, con un diseño responsivo que se adapte a diferentes tamaños de pantalla.
+
+Este desafío te permitirá practicar tus habilidades en HTML, CSS y JavaScript, y también te permitirá poner en práctica tus habilidades de resolución de problemas y pensamiento lógico al crear el algoritmo que genera los números primos. ¡Buena suerte!
