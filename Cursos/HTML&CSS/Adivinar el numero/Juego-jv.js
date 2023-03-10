@@ -7,10 +7,10 @@ let botonAdivinar = document.getElementById("adivinar");
 botonAdivinar.addEventListener("click", function() {
     var numeroIngresado = document.getElementById("inputNumber").value;
     if (numeroIngresado == numeroAleatorio) {
-        document.getElementById("resultado").innerHTML = "¡Adivinaste!";
+        document.getElementById("resultado").textContent = "¡Adivinaste!";
     } else if (numeroIngresado < numeroAleatorio) {
-        document.getElementById("resultado").innerHTML = "El número es mayor";
+        document.getElementById("resultado").textContent = "El número es mayor";
     } else {
-        document.getElementById("resultado").innerHTML = "El número es menor";
+        document.getElementById("resultado").textContent = "El número es menor";
     }
 })
